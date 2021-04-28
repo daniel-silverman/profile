@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=EB+Garamond:wght@500&family=Fira+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: rgb(235, 235, 235);
+  color: rgb(10, 10, 10);
+}
+
+h1 {
+  font-family: 'Fira Sans', serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 26px 26px 8px 26px;
+}
+
+h2 {
+  font-family: 'Cormorant', serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 16px 20px 28px 20px;
+}
+
+p {
+  font-family: 'Cormorant', serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 32px 16px;
+}
+
+.avatar {
+  height: 200px;
+  width: 200;
+  border-radius: 50%;
+}
+
+a:ul {
+  list-style: none;
+}
+
+a:link {
+  color: rgb(255, 192, 22);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.container {
+  width: 500px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+#footer {
+  background-color: white;
+  padding: 4px;
+  margin: 24px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 8px 8px 16px rgb(225, 225, 225);
+}
+
+.card {
+  background-color: white;
+  padding: 12px 24px 32px 24px;
+  margin: 24px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 8px 8px 16px rgb(225, 225, 225);
+}
+
+#btn-yellow {
+  font-size: 16px;
+  color: white;
+  background-color: rgba(255, 192, 22);
+/*  margin: 16px 16px 16px 16px;
+*/  padding: 8px;
+  border-radius: 3px;
+  transition: background-color .3s;
+}
+
+#btn-yellow:hover {
+  background-color: black;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
